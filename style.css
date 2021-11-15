@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    width: 20%;
+}
+main{
+    display: flex;
+}
+.left .heading{
+    background-color: grey;
+    font-size: xx-large;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.left .heading h2{
+margin-left: 50px;
+}
+#map{
+    width: 80%;
+    height: 100vh;
+}
+.left ul.list{
+    padding-left: 10px;
+    list-style: none;
+    text-decoration: none;
+
+}
+.left .placelist{
+    margin: 15px;
+    border-bottom: 1px solid grey;
+    padding-top: 5px;
+}
+.left .placelist a{
+    text-decoration: none;
+    font-size :25px;
+    color: rgb(182, 32, 32);
+}
+.left .placelist p{
+    font-size: 15px;
+    color: rgb(12, 7, 7);
+}
